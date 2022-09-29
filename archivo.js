@@ -25,9 +25,12 @@ function desencriptar(){
 
 
 }
-function copiar(){
-    var final = textoFinal()
-    navigator.clipboard.writeText(final)
+function  copiarPapelera ( ) {
+        var  copyText  =  documento . getElementById ( "resultado" ) ;
+        copiarTexto . seleccionar ( ) ;
+        copiarTexto . establecer Rango de Selección ( 0 ,  99999 ) ;
+        navegante _ portapapeles _ escribirTexto ( copiarTexto . valor )
+        alert ( "copiado el texto: "  +  copyText . value ) ;
    
  
 }
