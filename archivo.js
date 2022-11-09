@@ -27,10 +27,10 @@ function desencriptar(){
 }
 
   function copiar (){
-      var area = recuperarTexto ()
+      ocultarAtras():
+      var area = document.querySelector (".texto-recuperado");
       resultado.textContent = copiarTexto(area) 
     
-   
  
 }
 
